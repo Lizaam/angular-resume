@@ -9,7 +9,6 @@ import { LeftNavComponent } from './components/left-nav/left-nav.component';
 import { AboutComponent } from './sections/about/about.component';
 import { ResumeComponent } from './sections/resume/resume.component';
 import { ServicesComponent } from './sections/services/services.component';
-import { WorkComponent } from './sections/work/work.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
 
 @NgModule({
@@ -22,7 +21,6 @@ import { ProjectsComponent } from './sections/projects/projects.component';
     AboutComponent,
     ResumeComponent,
     ServicesComponent,
-    WorkComponent,
     ProjectsComponent,
   ],
   imports: [
