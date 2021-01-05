@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ResumeSectionComponent } from './resume-section.component';
+import { ResumeSectionComponent } from './resume.component';
 
 describe('ResumeSectionComponent', () => {
   let component: ResumeSectionComponent;
