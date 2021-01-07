@@ -1,20 +1,26 @@
-.category {
-  width: 250px;
-  height: 100px;
+.mixitup-container {
+  .mix-list {
+    img {
+      width: 30%;
+      margin: 19px;
+    }
+  }
 }
 
-.category-1 {
-  background: red;
-}
+.filter-list-items {
+  width: 100%;
+  list-style-type: none;
+  padding: 0 0 0 15px;
+  color: #fff;
+  margin-bottom: 30px;
 
-.category-2 {
-  background: blue;
-}
+  li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
 
-.category-3 {
-  background: yellow;
-}
-
-.category-4 {
-  background: green;
+    &.mixitup-control-active {
+      color: #0cb4ce;
+    }
+  }
 }

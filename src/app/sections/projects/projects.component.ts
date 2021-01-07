@@ -11,7 +11,9 @@ export class ProjectsComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void { }
+  ngOnInit(): void {
+    this.initializeMixitup();
+  }
 
   initializeMixitup(): void {
     this.mixitupInstance = mixitup('.mixitup-container');
