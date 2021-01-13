@@ -13,6 +13,7 @@ import { ServicesComponent } from './sections/services/services.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
 import { ContactComponent } from './sections/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ProjectInfoComponent } from './pages/project-info/project-info.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { HomeComponent } from './pages/home/home.component';
     ProjectsComponent,
     ContactComponent,
     HomeComponent,
+    ProjectInfoComponent,
   ],
   imports: [
     BrowserModule,
