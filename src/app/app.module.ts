@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
@@ -11,6 +12,7 @@ import { ResumeComponent } from './sections/resume/resume.component';
 import { ServicesComponent } from './sections/services/services.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
 import { ContactComponent } from './sections/contact/contact.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -24,9 +26,11 @@ import { ContactComponent } from './sections/contact/contact.component';
     ServicesComponent,
     ProjectsComponent,
     ContactComponent,
+    HomeComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
