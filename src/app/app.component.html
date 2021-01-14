@@ -1,38 +1,8 @@
 <section>
-  <div [ngClass]="(sidebarActive == true) ? 'app-sidebar sidebar-active' : 'app-sidebar'">
-    <div class="inner-menu">
-      <div class="nav-top">
-        <p id="make-shift-logo" class="m-0">
-          <span class="logo-letter">L</span>
-          <span>Lizaam Esau</span>
-        </p>
-        <div class="close-menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-      <div class="nav-content">
-        <ul class="sub-menu" id="sub-menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">about</a></li>
-          <li><a href="#rusume">resume</a></li>
-          <li><a href="#services">services</a></li>
-          <li><a href="#project">project</a></li>
-          <li><a href="#contact">contact</a></li>
-        </ul>
-      </div>
-      <ul class="icon">
-        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="#"><i class="fa fa-globe"></i></a></li>
-        <li><a href="#"><i class="fa fa-github"></i></a></li>
-      </ul>
-      <div class="copyright">@ Mado 2020. All Rights Reserved.</div>
-    </div>
+  <div class="main-sidebar">
+    <app-side-bar></app-side-bar>
   </div>
-  <div class="app-content">
+  <div class="main-content">
     <router-outlet></router-outlet>
   </div>
 </section>

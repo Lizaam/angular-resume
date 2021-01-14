@@ -13,6 +13,7 @@ import { ProjectsComponent } from './sections/projects/projects.component';
 import { ContactComponent } from './sections/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ProjectInfoComponent } from './pages/project-info/project-info.component';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ProjectInfoComponent } from './pages/project-info/project-info.componen
     ContactComponent,
     HomeComponent,
     ProjectInfoComponent,
+    SideBarComponent,
   ],
   imports: [
     BrowserModule,
