@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
-import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { IntroComponent } from './sections/intro/intro.component';
 import { LeftNavComponent } from './components/left-nav/left-nav.component';
 import { AboutComponent } from './sections/about/about.component';
@@ -19,7 +18,6 @@ import { ProjectInfoComponent } from './pages/project-info/project-info.componen
   declarations: [
     AppComponent,
     TopBarComponent,
-    SideBarComponent,
     IntroComponent,
     LeftNavComponent,
     AboutComponent,
