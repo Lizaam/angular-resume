@@ -10,12 +10,8 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  triggerSidebarOpen(value: any): void {
-    this.sidebarOpen = true;
-  }
-
-  triggerSidebarClose(value: any): void {
-    this.sidebarOpen = false;
+  triggerSidebar(value: string): void {
+    (value === 'open') ? (this.sidebarOpen = true) : (this.sidebarOpen = false);
   }
 
   ngOnInit(): void {

@@ -1,6 +1,6 @@
 <section>
-  <app-top-bar (openSidebarEvent)="triggerSidebarOpen($event)"></app-top-bar>
-  <app-side-bar [sidebarOpen]="sidebarOpen" (closeSidebarEvent)="triggerSidebarClose($event)"></app-side-bar>
+  <app-top-bar (openSidebarEvent)="triggerSidebar($event)"></app-top-bar>
+  <app-side-bar [sidebarOpen]="sidebarOpen" (closeSidebarEvent)="triggerSidebar($event)"></app-side-bar>
   <app-left-nav></app-left-nav>
   <app-intro></app-intro>
   <app-about></app-about>
