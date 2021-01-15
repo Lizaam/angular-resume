@@ -60,6 +60,16 @@
         cursor: pointer;
         padding: 20px 0;
 
+        &:hover {
+          span {
+            background-color: #0cb4ce;
+            transition: linear 0.1s;
+            -webkit-transition: linear 0.1s;
+            -moz-transition: linear 0.1s;
+            -ms-transition: linear 0.1s;
+          }
+        }
+
         span {
           background-color: #fff;
           display: block;
@@ -105,6 +115,15 @@
         a {
           color: #fff;
           text-transform: uppercase;
+
+          &:hover {
+            text-decoration: none;;
+            color: #0cb4ce;
+            transition: linear 0.1s;
+            -webkit-transition: linear 0.1s;
+            -moz-transition: linear 0.1s;
+            -ms-transition: linear 0.1s;
+          }
         }
       }
     }
@@ -120,6 +139,15 @@
 
       a {
         color: #fff;
+
+        &:hover {
+          text-decoration: none;;
+          color: #0cb4ce;
+          transition: linear 0.1s;
+          -webkit-transition: linear 0.1s;
+          -moz-transition: linear 0.1s;
+          -ms-transition: linear 0.1s;
+        }
       }
     }
   }
