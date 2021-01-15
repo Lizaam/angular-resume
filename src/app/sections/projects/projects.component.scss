@@ -1,0 +1,27 @@
+.mixitup-container {
+  .mix-list {
+    img {
+      width: 30%;
+      height: 190px;
+      margin: 19px;
+    }
+  }
+}
+
+.filter-list-items {
+  width: 100%;
+  list-style-type: none;
+  padding: 0 0 0 15px;
+  color: #fff;
+  margin-bottom: 30px;
+
+  li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+
+    &.mixitup-control-active {
+      color: #0cb4ce;
+    }
+  }
+}

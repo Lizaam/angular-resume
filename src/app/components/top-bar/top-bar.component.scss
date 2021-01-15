@@ -1,6 +1,7 @@
 #app-top-bar {
     transition: linear 0.1s;
     -webkit-transition: linear 0.1s;
+    -moz-transition: linear 0.1s;
     -ms-transition: linear 0.1s;
     position: fixed;
     top: 0;
@@ -11,24 +12,21 @@
     text-transform: uppercase;
 }
 
-#make-shift-logo {
-    .logo-letter {
-        background-color: #ffffff;
-        padding: 0px 10px;
-        margin: 0 10px 0 0;
-        color: #000;
-    }
-
-    span {
-        font-size: 16pt;
-        font-family: inherit;
-    }
-}
-
 .open-menu {
     padding: 20px 15px;
     cursor: pointer;
     width: 60px;
+
+    &:hover {
+        span {
+            width: 100% !important;
+            background-color: #0cb4ce;
+            transition: linear 0.1s;
+            -webkit-transition: linear 0.1s;
+            -moz-transition: linear 0.1s;
+            -ms-transition: linear 0.1s;
+        }
+    }
 
     span {
         display: block;

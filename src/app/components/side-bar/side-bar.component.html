@@ -1,1 +1,33 @@
-<p>side-bar works!</p>
+<div [ngClass]="(sidebarOpen == true) ? 'app-sidebar sidebar-active' : 'app-sidebar'">
+  <div class="inner-menu">
+    <div class="nav-top">
+      <p id="make-shift-logo" class="m-0">
+        <span class="logo-letter">L</span>
+        <span>Lizaam Esau</span>
+      </p>
+      <div class="close-menu" (click)="closeSidebar('close')">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="nav-content">
+      <ul class="sub-menu" id="sub-menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">resume</a></li>
+        <li><a href="">services</a></li>
+        <li><a href="">project</a></li>
+        <li><a href="">contact</a></li>
+      </ul>
+    </div>
+    <ul class="icon">
+      <li><a href=""><i class="fa fa-facebook"></i></a></li>
+      <li><a href=""><i class="fa fa-instagram"></i></a></li>
+      <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+      <li><a href=""><i class="fa fa-globe"></i></a></li>
+      <li><a href=""><i class="fa fa-github"></i></a></li>
+    </ul>
+    <div class="copyright">@ Mado 2020. All Rights Reserved.</div>
+  </div>
+</div>

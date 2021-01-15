@@ -9,6 +9,20 @@ body {
 }
 
 /* Styles used globally */
+#make-shift-logo {
+    .logo-letter {
+        background-color: #ffffff;
+        padding: 0px 10px;
+        margin: 0 10px 0 0;
+        color: #000;
+    }
+
+    span {
+        font-size: 16pt;
+        font-family: inherit;
+    }
+}
+
 .content-section {
     background-color: #343434;
     padding: 0 60px;
