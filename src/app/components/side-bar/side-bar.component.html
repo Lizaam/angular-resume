@@ -1,11 +1,11 @@
-<div [ngClass]="(sidebarActive == true) ? 'app-sidebar sidebar-active' : 'app-sidebar'">
+<div [ngClass]="(sidebarOpen == true) ? 'app-sidebar sidebar-active' : 'app-sidebar'">
   <div class="inner-menu">
     <div class="nav-top">
       <p id="make-shift-logo" class="m-0">
         <span class="logo-letter">L</span>
         <span>Lizaam Esau</span>
       </p>
-      <div class="close-menu" (click)="closeSidebar()">
+      <div class="close-menu" (click)="closeSidebar('close')">
         <span></span>
         <span></span>
         <span></span>

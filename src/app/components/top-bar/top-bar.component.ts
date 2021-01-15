@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
 import { SideBarComponent } from '../side-bar/side-bar.component';
 
 @Component({
@@ -7,7 +7,13 @@ import { SideBarComponent } from '../side-bar/side-bar.component';
   styleUrls: ['./top-bar.component.scss']
 })
 export class TopBarComponent implements OnInit {
+  @Output() openSidebarEvent = new EventEmitter<string>();
+
   constructor() { }
+
+  openSidebar(value: string): void {
+    this.openSidebarEvent.emit(value);
+  }
 
   ngOnInit(): void {}
 }
